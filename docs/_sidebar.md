@@ -1,6 +1,6 @@
 * [首页](/)
-* [Web API-1基础](/ZH/WebAPI-1基础)
-* [Web API-2-捕获，冒泡，事件委托](/ZH/WebAPI-2-捕获，冒泡，事件委托)
+* [Web API-1基础](/ZH/WebAPI-1基础 "webapi基础部分")
+* [Web API-2-捕获，冒泡，事件委托](/ZH/WebAPI-2-捕获，冒泡，事件委托 "捕获，冒泡，事件委托")
 * [Web API-3-案例-鼠标拖动弹出框](/ZH/WebAPI-3-案例-鼠标拖动弹出框)
 * [textarea文本域内容的获取](/ZH/textarea文本域内容的获取)
 * [Web API-DOM&BOM](/ZH/DOM&BOM)
@@ -9,7 +9,6 @@
 * [案例-鼠标拖动弹出框](/ZH/案例-鼠标拖动弹出框)
 * [微博发布-本地数据化](/ZH/微博发布-本地数据化)
 * [jQuery day 1](/ZH/jQuery-day1)
-* [尝试一级目录](/ZH/tryfirst)
-	- [二级目录](/ZH/try)
+* [emoji表情](/ZH/emoji)
 
 

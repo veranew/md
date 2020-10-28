@@ -1,12 +1,12 @@
-# Web API
+# Web API 
 
 ## 一、javaScript组成
 
 一个完整的JavaScript实现应该由下列三个部分组成
 
-- 核心（ECMAScript) --- js语法规范
-- 文档对象模型（DOM）--- Document Object Model
-- 浏览器对象模型（BOM）--- Browser Object Model
+- :smile:核心（ECMAScript) --- js语法规范
+- :smile:文档对象模型（DOM）--- Document Object Model
+- :smile:浏览器对象模型（BOM）--- Browser Object Model
 
 初级阶段我们学习DOM+BOM的属性和方法，并使用它们实现页面上的效果。
 

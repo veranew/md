@@ -1,6 +1,6 @@
 ## DOM事件流
 
-### 基本概念
+### 基本概念 <!-- {docsify-ignore} -->
 
 > “DOM2级事件”规定的事件包括三个阶段：**事件捕获阶段**、**处于目标阶段**和**事件冒泡阶段**。首先发生的是事件捕获，为截获事件提供了机会。然后是实际的目标接收到事件。最后一个阶段是冒泡阶段，可以在这个阶段对事件做出响应。
 >
@@ -8,7 +8,7 @@
 
 ![捕获与冒泡](/assets/捕获与冒泡.png)
 
-#### 阻止冒泡
+#### 阻止冒泡 <!-- {docsify-ignore} -->
 
 原因：
 
@@ -29,7 +29,7 @@ erzi.addEventListener('click',function(e){
   e.stopPropagation();
   console.log('我是你儿子');
 });
- ```
+```
 
 
 
@@ -37,7 +37,7 @@ erzi.addEventListener('click',function(e){
 
 ## 事件委托
 
-### 基本概念
+### 基本概念  <!-- {docsify-ignore} -->
 
 此处引自知乎用户**桐城**的《JavaScript事件委托详解》
 
@@ -60,7 +60,7 @@ erzi.addEventListener('click',function(e){
   	<li>li4</li>
     <li>li5</li>
  </ul>
- ```
+```
 
  我们的需求是：
 
@@ -94,7 +94,7 @@ btn.onclick = function() {
 
 这样就不需要一次次判断了，直接用e.target.nodeName来判断。
 
-### 作用
+### 作用  <!-- {docsify-ignore} -->
 
 1、减少内存消耗
 

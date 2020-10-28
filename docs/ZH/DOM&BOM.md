@@ -1,6 +1,6 @@
-# DOM
+## DOM
 
-## 01-节点的创建、修改、添加
+### 01-节点的创建、修改、添加  <!-- {docsify-ignore} -->
 
 - 创建
 
@@ -65,7 +65,7 @@
 
   
 
-## 02-通过节点获取节点
+### 02-通过节点获取节点 <!-- {docsify-ignore} -->
 
 
 
@@ -103,7 +103,7 @@ console.log(li.previousElementSibling);
 console.log(li.nextElementSibling);
 ```
 
-## 03-删除节点
+### 03-删除节点 <!-- {docsify-ignore} -->
 
 ```js
 //父元素.removeChild(要删除的子元素)
@@ -115,11 +115,11 @@ ul.removeChild(first);
 
 
 
-# BOM
+## BOM
 
 > `BOM`的核心对象是 `window`，它表示浏览器的一个实例。
 
-### window对象
+### window对象 <!-- {docsify-ignore} -->
 
 - 特点
 
@@ -227,7 +227,7 @@ ul.removeChild(first);
 
   
 
-### `localStorage`和`JSON`
+### `localStorage`和`JSON` <!-- {docsify-ignore} -->
 
 `localStorage`
 
