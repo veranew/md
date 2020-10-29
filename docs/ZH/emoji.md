@@ -4,7 +4,7 @@
 
   ## People
 
-  ​    :simple_smile:   :laughing:   :bowtie:   :smile:
+   :simple_smile:   :laughing:   :bowtie:   :smile:
    :blush:
    :smiley:
    :relaxed:

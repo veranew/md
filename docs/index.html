@@ -12,13 +12,26 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: '',
+      name: 'veranew',
+      nameLink: '/',
+      repo: 'veranew/mdnote',
       loadSidebar: true,
-      subMaxLevel: 3
+      subMaxLevel: 3,
+      coverpage: {
+        '/': '_coverpage.md',
+      },    
+      // logo: '/assets/avatar.jpg',  
+      auto2top: true,
+      notFoundPage: '_404.md',
+      copyCode: {
+      buttonText : '复制代码',
+      errorText  : '复制失败',
+      successText: '已复制'
+      }
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
 </body>
 </html>
