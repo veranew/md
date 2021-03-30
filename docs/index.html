@@ -1,3 +1,11 @@
+<!--
+ * @Author: veranew
+ * @Date: 2020-10-28 15:10:44
+ * @LastEditTime: 2021-03-26 11:04:56
+ * @LastEditors: veranew
+ * @Description: LESS CODE LESS BUG
+ * @FilePath: \jiagouf:\niuxiaolin\mdnote\docs\index.html
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +14,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="./vue.css">
 </head>
 <body>
   <div id="app"></div>
@@ -16,11 +24,11 @@
       nameLink: '/',
       repo: 'veranew/mdnote',
       loadSidebar: true,
-      subMaxLevel: 3,
+      subMaxLevel: 2,
       coverpage: {
         '/': '_coverpage.md',
       },    
-      // logo: '/assets/avatar.jpg',  
+      logo: '/assets/avatar.jpg',  
       auto2top: true,
       notFoundPage: '_404.md',
       copyCode: {
@@ -30,8 +38,8 @@
       }
     }
   </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="./docsify.min.js"></script>
+  <script src="./emoji.min.js"></script>
+  <script src="./docsify-copy-code.js"></script>
 </body>
 </html>
